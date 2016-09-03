@@ -1,0 +1,58 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3">
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账   号："
+            android:textSize="34px"
+            />
+        <EditText
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:minWidth="220px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密  码："
+            android:textSize="34px"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="220px"
+            android:textSize="24px"
+            android:id="@+id/t2"
+            android:inputType="textPassword"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonl"
+            android:text="@string/login"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/buttonc"
+
+            />
+
+        <TextView />
+    </TableRow>
+</TableLayout>
