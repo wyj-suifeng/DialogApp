@@ -38,20 +38,7 @@
     </TableRow>
     <TableRow android:layout_marginTop="20px">
         <TextView />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonl"
-            android:text="@string/login"
 
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cancel"
-            android:id="@+id/buttonc"
-
-            />
 
         <TextView />
     </TableRow>
