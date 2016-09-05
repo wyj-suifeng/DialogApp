@@ -38,8 +38,6 @@
     </TableRow>
     <TableRow android:layout_marginTop="20px">
         <TextView />
-
-
         <TextView />
     </TableRow>
 </TableLayout>
